@@ -1,0 +1,5 @@
+project: go-containerregistry
+target: fuzz_parse_reference
+cmds:
+  - cmd: /mayhem/fuzz_parse_reference
+    libfuzzer: true
